@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+
 }
 
+
 .cover {
-    height: 400px;
+    height: 450px;
     background-image:url(assets/Fondo-Principal.jpg) ;
     color: white;
     background-size: cover;
@@ -18,8 +20,19 @@
 }
 
 .card {
+    
     border: 0 !important;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) , 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+}
 
+.card-title {
+    min-height: 2.5rem;
+}
 
+.card-text {
+    min-height: 24rem;
+}
+
+.flex-fill {
+    margin-right: 1rem;
 }
